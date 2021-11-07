@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.Logica", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.Datos", "TestDtoEntities.Datos\TestDtoEntities.Datos.csproj", "{AE7B9EF5-4EDB-47C9-9B46-0CAAFD52A4E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.WcfServiceTest", "TestDtoEntities.WcfServiceTest\TestDtoEntities.WcfServiceTest.csproj", "{EC49BDBA-3467-4DAE-A279-79D879816EB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AE7B9EF5-4EDB-47C9-9B46-0CAAFD52A4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7B9EF5-4EDB-47C9-9B46-0CAAFD52A4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7B9EF5-4EDB-47C9-9B46-0CAAFD52A4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC49BDBA-3467-4DAE-A279-79D879816EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC49BDBA-3467-4DAE-A279-79D879816EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC49BDBA-3467-4DAE-A279-79D879816EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC49BDBA-3467-4DAE-A279-79D879816EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

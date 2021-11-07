@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -15,6 +16,15 @@ namespace TestDtoEntities.WinUI
         public FrmPrincipal()
         {
             InitializeComponent();
+            InitMyComponents();
+
         }
+        private void InitMyComponents()
+        {
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = ConfigurationManager.AppSettings["formCaption"];
+        }
+
+  
     }
 }
