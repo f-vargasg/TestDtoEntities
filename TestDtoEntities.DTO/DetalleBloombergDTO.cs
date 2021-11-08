@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestDtoEntities.Modelo
+namespace TestDtoEntities.DTO
 {
-    public class DetalleBloombergBE
+
+    [DataContract]
+    public class DetalleBloombergDTO : BaseDTO
     {
         public string CodEncabloombergV { get; set; }
         public string CodFieldV { get; set; }

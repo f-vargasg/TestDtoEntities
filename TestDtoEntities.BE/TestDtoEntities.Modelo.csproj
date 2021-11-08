@@ -7,8 +7,8 @@
     <ProjectGuid>{DB24273B-AC90-4D31-8D03-58A74D14DF82}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestDtoEntities.BE</RootNamespace>
-    <AssemblyName>TestDtoEntities.BE</AssemblyName>
+    <RootNamespace>TestDtoEntities.Modelo</RootNamespace>
+    <AssemblyName>TestDtoEntities.Modelo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

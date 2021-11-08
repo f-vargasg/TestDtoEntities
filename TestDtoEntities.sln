@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.WinUI", "TestDtoEntities.WinUI\TestDtoEntities.WinUI.csproj", "{B792D147-744E-480F-90C5-8C3EA198B3FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC49BDBA-3467-4DAE-A279-79D879816EB7} = {EC49BDBA-3467-4DAE-A279-79D879816EB7}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.BE", "TestDtoEntities.BE\TestDtoEntities.BE.csproj", "{DB24273B-AC90-4D31-8D03-58A74D14DF82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.Modelo", "TestDtoEntities.BE\TestDtoEntities.Modelo.csproj", "{DB24273B-AC90-4D31-8D03-58A74D14DF82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDtoEntities.DTO", "TestDtoEntities.DTO\TestDtoEntities.DTO.csproj", "{0C7B0F10-9EF1-4736-832D-38794B3A92BD}"
 EndProject

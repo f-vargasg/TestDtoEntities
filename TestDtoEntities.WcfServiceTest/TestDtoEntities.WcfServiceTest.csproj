@@ -61,14 +61,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Service1.svc" />
+    <Content Include="WcfSrvDto.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service1.svc.cs">
-      <DependentUpon>Service1.svc</DependentUpon>
+    <Compile Include="WcfSrvDto.svc.cs">
+      <DependentUpon>WcfSrvDto.svc</DependentUpon>
     </Compile>
-    <Compile Include="IService1.cs" />
+    <Compile Include="IWcfSrvDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +81,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestDtoEntities.DTO\TestDtoEntities.DTO.csproj">
+      <Project>{0c7b0f10-9ef1-4736-832d-38794b3a92bd}</Project>
+      <Name>TestDtoEntities.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestDtoEntities.Logica\TestDtoEntities.Logica.csproj">
+      <Project>{11b5599a-008a-43fd-878a-4eddedeeb0f9}</Project>
+      <Name>TestDtoEntities.Logica</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
